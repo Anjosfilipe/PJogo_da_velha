@@ -1,0 +1,32 @@
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.exe
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.deps.json
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.runtimeconfig.json
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.runtimeconfig.dev.json
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.dll
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.pdb
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.csproj.AssemblyReference.cache
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.dll
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\refint\PJogo_da_Velha.dll
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.pdb
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.genruntimeconfig.cache
+C:\Users\filip\OneDrive\Documentos\UNIARA\PROJETOS_PROGRAMAÇÃO\c#\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\ref\PJogo_da_Velha.dll
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.exe
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.deps.json
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.runtimeconfig.json
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.runtimeconfig.dev.json
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.dll
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\bin\Debug\net5.0\PJogo_da_Velha.pdb
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.csproj.AssemblyReference.cache
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.AssemblyInfoInputs.cache
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.AssemblyInfo.cs
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.csproj.CoreCompileInputs.cache
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.dll
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\refint\PJogo_da_Velha.dll
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.pdb
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\PJogo_da_Velha.genruntimeconfig.cache
+C:\Users\Filipe Anjos\Desktop\PJogo_da_Velha\PJogo_da_Velha\obj\Debug\net5.0\ref\PJogo_da_Velha.dll

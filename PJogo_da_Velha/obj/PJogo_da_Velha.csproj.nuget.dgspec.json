@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Filipe Anjos\\source\\repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj": {}
+    "C:\\Users\\Filipe Anjos\\Source\\Repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Filipe Anjos\\source\\repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj": {
+    "C:\\Users\\Filipe Anjos\\Source\\Repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filipe Anjos\\source\\repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj",
+        "projectUniqueName": "C:\\Users\\Filipe Anjos\\Source\\Repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj",
         "projectName": "PJogo_da_Velha",
-        "projectPath": "C:\\Users\\Filipe Anjos\\source\\repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj",
+        "projectPath": "C:\\Users\\Filipe Anjos\\Source\\Repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\PJogo_da_Velha.csproj",
         "packagesPath": "C:\\Users\\Filipe Anjos\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Filipe Anjos\\source\\repos\\Anjosfilipe\\PJogo_da_velha\\PJogo_da_Velha\\obj\\",
         "projectStyle": "PackageReference",

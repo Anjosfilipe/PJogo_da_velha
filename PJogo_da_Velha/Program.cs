@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Text;
 
 namespace PJogo_da_Velha
 {
@@ -7,120 +8,90 @@ namespace PJogo_da_Velha
     {
         static void gameoverX()
         {
-            Console.WriteLine("\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep(); 
-            Console.WriteLine("\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\t\t\t\t\t\t\t\tPARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\t\t\t\t\t\t\t\tPARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1000);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1000);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  PARABENS JOGADOR X VOCÊ VENCEU A PARTIDA !!!!! ");
-            Console.Beep();
+            Console.WriteLine(@"
+
+                                                                                                    ('-.      _ .-') _                 _  .-')         ) (`-.            
+                                                                          ( OO ).-. ( (  OO) )               ( \( -O )         ( OO ).          
+                                         ,--.  .-'),-----.   ,----.       / . --. /  \     .'_   .-'),-----.  ,------.        (_/.  \_)-.       
+                                     .-')| ,| ( OO'  .-.  ' '  .-./-')    | \-.  \   ,`'--..._) ( OO'  .-.  ' |   /`. '        \  `.'  /        
+                                    ( OO |(_| /   |  | |  | |  |_( O- ) .-'-'  |  |  |  |  \  ' /   |  | |  | |  /  | |         \     /\        
+                                    | `-'|  | \_) |  |\|  | |  | .--, \  \| |_.'  |  |  |   ' | \_) |  |\|  | |  |_.' |          \   \ |        
+                                    ,--. |  |   \ |  | |  |(|  | '. (_/   |  .-.  |  |  |   / :   \ |  | |  | |  .  '.'         .'    \_)       
+                                    |  '-'  /    `'  '-'  ' |  '--'  |    |  | |  |  |  '--'  /    `'  '-'  ' |  |\  \         /  .'.  \        
+                                     `-----'       `-----'   `------'     `--' `--'  `-------'       `-----'  `--' '--'       '--'   '--'         
+                                                                                                                                                                                                                               ");
+        
+            Console.WriteLine(@"                                                                                                                                           
+                                                                                                                                         
+VVVVVVVV           VVVVVVVVEEEEEEEEEEEEEEEEEEEEEENNNNNNNN        NNNNNNNN        CCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEUUUUUUUU     UUUUUUUU
+V::::::V           V::::::VE::::::::::::::::::::EN:::::::N       N::::::N     CCC::::::::::::CE::::::::::::::::::::EU::::::U     U::::::U
+V::::::V           V::::::VE::::::::::::::::::::EN::::::::N      N::::::N   CC:::::::::::::::CE::::::::::::::::::::EU::::::U     U::::::U
+V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C:::::CCCCCCCC::::CEE::::::EEEEEEEEE::::EUU:::::U     U:::::UU
+ V:::::V           V:::::V   E:::::E       EEEEEEN::::::::::N    N::::::N C:::::C       CCCCCC  E:::::E       EEEEEE U:::::U     U:::::U 
+  V:::::V         V:::::V    E:::::E             N:::::::::::N   N::::::NC:::::C                E:::::E              U:::::D     D:::::U 
+   V:::::V       V:::::V     E::::::EEEEEEEEEE   N:::::::N::::N  N::::::NC:::::C                E::::::EEEEEEEEEE    U:::::D     D:::::U 
+    V:::::V     V:::::V      E:::::::::::::::E   N::::::N N::::N N::::::NC:::::C                E:::::::::::::::E    U:::::D     D:::::U 
+     V:::::V   V:::::V       E:::::::::::::::E   N::::::N  N::::N:::::::NC:::::C                E:::::::::::::::E    U:::::D     D:::::U 
+      V:::::V V:::::V        E::::::EEEEEEEEEE   N::::::N   N:::::::::::NC:::::C                E::::::EEEEEEEEEE    U:::::D     D:::::U 
+       V:::::V:::::V         E:::::E             N::::::N    N::::::::::NC:::::C                E:::::E              U:::::D     D:::::U 
+        V:::::::::V          E:::::E       EEEEEEN::::::N     N:::::::::N C:::::C       CCCCCC  E:::::E       EEEEEE U::::::U   U::::::U 
+         V:::::::V         EE::::::EEEEEEEE:::::EN::::::N      N::::::::N  C:::::CCCCCCCC::::CEE::::::EEEEEEEE:::::E U:::::::UUU:::::::U 
+          V:::::V          E::::::::::::::::::::EN::::::N       N:::::::N   CC:::::::::::::::CE::::::::::::::::::::E  UU:::::::::::::UU  
+           V:::V           E::::::::::::::::::::EN::::::N        N::::::N     CCC::::::::::::CE::::::::::::::::::::E    UU:::::::::UU    
+            VVV            EEEEEEEEEEEEEEEEEEEEEENNNNNNNN         NNNNNNN        CCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEE      UUUUUUUUU      
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                           ");
+            
         }
 
         static void gameoverO()
         {
-            Console.WriteLine("\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(2000);
-            Console.Beep();
-            Console.WriteLine("\n\n\n\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\t\t\t\t\t\t\t\tPARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\t\t\t\t\t\t\t\tPARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1000);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(1000);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Task.Delay(500);
-            Console.Beep();
-            Console.Clear();
-            Console.Write("\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  PARABENS JOGADOR O VOCÊ VENCEU A PARTIDA !!!!! ");
-            Console.Beep();
+            Console.WriteLine(@"                                                                                                                                                                                   
+                                                                                                                                                                                  
+                                                                               ('-.      _ .-') _                 _  .-')                      
+                                                                      ( OO ).-. ( (  OO) )               ( \( -O )                     
+                                     ,--.  .-'),-----.   ,----.       / . --. /  \     .'_   .-'),-----.  ,------.         .-'),-----. 
+                                 .-')| ,| ( OO'  .-.  ' '  .-./-')    | \-.  \   ,`'--..._) ( OO'  .-.  ' |   /`. '       ( OO'  .-.  '
+                                ( OO |(_| /   |  | |  | |  |_( O- ) .-'-'  |  |  |  |  \  ' /   |  | |  | |  /  | |       /   |  | |  |
+                                | `-'|  | \_) |  |\|  | |  | .--, \  \| |_.'  |  |  |   ' | \_) |  |\|  | |  |_.' |       \_) |  |\|  |
+                                ,--. |  |   \ |  | |  |(|  | '. (_/   |  .-.  |  |  |   / :   \ |  | |  | |  .  '.'         \ |  | |  |
+                                |  '-'  /    `'  '-'  ' |  '--'  |    |  | |  |  |  '--'  /    `'  '-'  ' |  |\  \           `'  '-'  '
+                                 `-----'       `-----'   `------'     `--' `--'  `-------'       `-----'  `--' '--'            `-----'               
+                                                                                                                                                                                  
+                                                                                                                                                                                  
+                                                                                                                                                                                  
+                                                                                                                                                                                  
+                                                                                                                                                                                  
+                                                                                                                                                                                   ");
+            
+            Console.WriteLine(@"                                                                                                                                           
+                                                                                                                                         
+VVVVVVVV           VVVVVVVVEEEEEEEEEEEEEEEEEEEEEENNNNNNNN        NNNNNNNN        CCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEUUUUUUUU     UUUUUUUU
+V::::::V           V::::::VE::::::::::::::::::::EN:::::::N       N::::::N     CCC::::::::::::CE::::::::::::::::::::EU::::::U     U::::::U
+V::::::V           V::::::VE::::::::::::::::::::EN::::::::N      N::::::N   CC:::::::::::::::CE::::::::::::::::::::EU::::::U     U::::::U
+V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C:::::CCCCCCCC::::CEE::::::EEEEEEEEE::::EUU:::::U     U:::::UU
+ V:::::V           V:::::V   E:::::E       EEEEEEN::::::::::N    N::::::N C:::::C       CCCCCC  E:::::E       EEEEEE U:::::U     U:::::U 
+  V:::::V         V:::::V    E:::::E             N:::::::::::N   N::::::NC:::::C                E:::::E              U:::::D     D:::::U 
+   V:::::V       V:::::V     E::::::EEEEEEEEEE   N:::::::N::::N  N::::::NC:::::C                E::::::EEEEEEEEEE    U:::::D     D:::::U 
+    V:::::V     V:::::V      E:::::::::::::::E   N::::::N N::::N N::::::NC:::::C                E:::::::::::::::E    U:::::D     D:::::U 
+     V:::::V   V:::::V       E:::::::::::::::E   N::::::N  N::::N:::::::NC:::::C                E:::::::::::::::E    U:::::D     D:::::U 
+      V:::::V V:::::V        E::::::EEEEEEEEEE   N::::::N   N:::::::::::NC:::::C                E::::::EEEEEEEEEE    U:::::D     D:::::U 
+       V:::::V:::::V         E:::::E             N::::::N    N::::::::::NC:::::C                E:::::E              U:::::D     D:::::U 
+        V:::::::::V          E:::::E       EEEEEEN::::::N     N:::::::::N C:::::C       CCCCCC  E:::::E       EEEEEE U::::::U   U::::::U 
+         V:::::::V         EE::::::EEEEEEEE:::::EN::::::N      N::::::::N  C:::::CCCCCCCC::::CEE::::::EEEEEEEE:::::E U:::::::UUU:::::::U 
+          V:::::V          E::::::::::::::::::::EN::::::N       N:::::::N   CC:::::::::::::::CE::::::::::::::::::::E  UU:::::::::::::UU  
+           V:::V           E::::::::::::::::::::EN::::::N        N::::::N     CCC::::::::::::CE::::::::::::::::::::E    UU:::::::::UU    
+            VVV            EEEEEEEEEEEEEEEEEEEEEENNNNNNNN         NNNNNNN        CCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEE      UUUUUUUUU      
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                           ");
+            
+
         }
         static void tabuleiro(char[,] pos_tabuleiro, int cont_jogadas)
         {
@@ -148,7 +119,20 @@ namespace PJogo_da_Velha
 
         static void menu_iniciar()
         {
-            Console.WriteLine("\n\n\n\t\t\t -----------------------------------  JODO DA VELHA  --------------------------------------");
+
+
+             Console.WriteLine("\n\n\n\t\t\t" + @"
+
+
+                                                 )                )      (                                  (         )            
+                                    ( /(    (        ( /(      )\ )      (                        )\ )   ( /(     (      
+                               (    )\())   )\ )     )\())    (()/(      )\        (   (    (    (()/(   )\())    )\     
+                               )\  ((_)\   (()/(    ((_)\      /(_))  ((((_)(      )\  )\   )\    /(_)) ((_)\  ((((_)(   
+                              ((_)   ((_)   /(_))_    ((_)    (_))_    )\ _ )\    ((_)((_) ((_)  (_))    _((_)  )\ _ )\  
+                             _ | |  / _ \  (_)) __|  / _ \     |   \   (_)_\(_)   \ \ / /  | __| | |    | || |  (_)_\(_) 
+                            | || | | (_) |   | (_ | | (_) |    | |) |   / _ \      \ V /   | _|  | |__  | __ |   / _ \   
+                             \__/   \___/     \___|  \___/     |___/   /_/ \_\      \_/    |___| |____| |_||_|  /_/ \_\"); 
+
             Console.WriteLine("\n\n\t\t        Regras do jogo: ");
             Console.WriteLine("\n\t\t         ° Tire par ou impar para saber quem inicia como o jogador 'O'.");
             Console.Write("\n                         ° Este jogo da Velha funciona por cordenadas cartesianas. Abaixo  temos o exemplo de coordenadas || ");

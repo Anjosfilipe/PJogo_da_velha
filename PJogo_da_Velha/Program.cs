@@ -46,7 +46,6 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
                                                                                                                                                                                            ");
             
         }
-
         static void gameoverO()
         {
             Console.WriteLine(@"                                                                                                                                                                                   
@@ -116,7 +115,6 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
             }
 
         }
-
         static void menu_iniciar()
         {
 
@@ -192,13 +190,14 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
                     {
                         linhas = 0;
                         colunas = 0;
+                        Console.WriteLine("Coordenadas inexistentes, informe novamente");
 
                     }
                     else if (pos_tabuleiro[linhas - 1, colunas - 1] != ' ')
                     {
                         linhas = 0;
                         colunas = 0;
-
+                        Console.WriteLine("Coordenadas já preenchidas, informe novamente");
                     }
                     else
                     {
@@ -219,6 +218,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 0] == 'X' && pos_tabuleiro[0, 1] == 'X' && pos_tabuleiro[0, 2] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -231,6 +231,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[1, 0] == 'X' && pos_tabuleiro[1, 1] == 'X' && pos_tabuleiro[1, 2] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -243,6 +244,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[2, 0] == 'X' && pos_tabuleiro[2, 1] == 'X' && pos_tabuleiro[2, 2] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -255,6 +257,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 0] == 'X' && pos_tabuleiro[1, 0] == 'X' && pos_tabuleiro[2, 0] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -267,6 +270,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 1] == 'X' && pos_tabuleiro[1, 1] == 'X' && pos_tabuleiro[2, 1] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -279,6 +283,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 2] == 'X' && pos_tabuleiro[1, 2] == 'X' && pos_tabuleiro[2, 2] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -291,6 +296,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 2] == 'X' && pos_tabuleiro[1, 1] == 'X' && pos_tabuleiro[2, 0] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -303,6 +309,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 0] == 'X' && pos_tabuleiro[1, 1] == 'X' && pos_tabuleiro[2, 2] == 'X')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverX();
                         Console.Beep();
@@ -314,10 +321,9 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
                     }
                     // -----------------------------------------------------------------------------------------// 
 
-
-
                     if (pos_tabuleiro[0, 0] == 'O' && pos_tabuleiro[0, 1] == 'O' && pos_tabuleiro[0, 2] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -330,6 +336,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[1, 0] == 'O' && pos_tabuleiro[1, 1] == 'O' && pos_tabuleiro[1, 2] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -342,6 +349,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[2, 0] == 'O' && pos_tabuleiro[2, 1] == 'O' && pos_tabuleiro[2, 2] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -354,6 +362,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 0] == 'O' && pos_tabuleiro[1, 0] == 'O' && pos_tabuleiro[2, 0] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -366,6 +375,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 1] == 'O' && pos_tabuleiro[1, 1] == 'O' && pos_tabuleiro[2, 1] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -378,6 +388,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 2] == 'O' && pos_tabuleiro[1, 2] == 'O' && pos_tabuleiro[2, 2] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -390,6 +401,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 2] == 'O' && pos_tabuleiro[1, 1] == 'O' && pos_tabuleiro[2, 0] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();
@@ -402,6 +414,7 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
 
                     if (pos_tabuleiro[0, 0] == 'O' && pos_tabuleiro[1, 1] == 'O' && pos_tabuleiro[2, 2] == 'O')
                     {
+                        tabuleiro(pos_tabuleiro, cont_jogadas);
                         Console.Clear();
                         gameoverO();
                         Console.Beep();

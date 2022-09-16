@@ -145,25 +145,28 @@ V::::::V           V::::::VEE::::::EEEEEEEEE::::EN:::::::::N     N::::::N  C::::
             Console.WriteLine("\n\t\t\t\t\t\t\t       3/1  ||  3/2  ||  3/3 ");
 
             Console.WriteLine("\n\n\n\t\t\t\t\t\t\t  ______________________________ ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t  |  tecle ENTER para JOGAR!!!  |");
+            Console.WriteLine("\n\t\t\t\t\t\t\t  |  tecle ENTER para JOGAR!!!  |");    
             Console.WriteLine("\t\t\t\t\t\t\t  ______________________________ ");
             Console.ReadKey();
-
+            Console.Clear();
+            Console.WriteLine("\n\n\n\t\t\t\t\t\t\t  ______________________________ ");
+            Console.WriteLine("\n\t\t\t\t\t\t\t  |  SELECIONE 1 - O  OU  2 - X |");    
+            Console.WriteLine("\t\t\t\t\t\t\t  ______________________________ ");
         }
         static void Main(string[] args)
         {
             char[,] pos_tabuleiro = new char[3, 3];
             char resposta;
-            int cont_jogadas = 0, linhas, colunas, jogada = 1;
+            int cont_jogadas = 0, linhas, colunas, jogada = 1, jogador;
 
             menu_iniciar();
-
+            jogador = int.Parse(Console.ReadLine());
             do
             {
                 limpa_tabuleiro(pos_tabuleiro, jogada, cont_jogadas);
 
                 cont_jogadas = 0;
-                jogada = 1;
+                jogada = jogador;
 
                 do
                 {
